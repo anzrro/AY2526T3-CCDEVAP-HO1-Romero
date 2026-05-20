@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            HO1 Romero - About Me
-        </title>
+        <title>HO1 Romero - About Me</title>
+        <link rel="stylesheet" media="all" href="style.css">
     </head>
 
     <body id="top">
         <!-- Top Bar with the 2 pages -->
-        <header>
+        <header class="nav">
             <nav>
                 <strong>About Me</strong> | <a href="fitness.html">My Fitness Program</a>
             </nav>
@@ -17,26 +16,30 @@
         <hr>
 
         <!-- About me -->
-        <section>
-            <img src="me.jpg" alt="It's me!" width="200">
-            <h1>Aaron Zander Romero</h1>
-            <p>
-                Hello! I love to bond with my friends and family through meals, traveling, and doing sports and other activities!<br>
-                I don't like to talk much when I meet new people but once I get to know you and be comfy with you, I'll start opening myself up more.
-                I like to spend my free time going to the gym, playing video games, and doing activities with friends and family such as Football, Pickleball, Tennis, and etc.
-                <br>Below are some examples of what I love doing.
-            </p>
+        <section class="about">
+            <img src="me.jpg" alt="It's me!" width="250">
+            <div>
+                <h1>Aaron Zander Romero</h1>
+                <p>
+                    Hello! I love to bond with my friends and family through meals, traveling, and doing sports and other activities!<br>
+                    I don't like to talk much when I meet new people but once I get to know you and be comfy with you, I'll start opening myself up more.
+                    I like to spend my free time going to the gym, playing video games, and doing activities with friends and family such as Football, Pickleball, Tennis, and etc.
+                    <br>Below are some examples of what I love doing.
+                </p>
+            </div>
         </section>
 
         <!-- Images -->
         <section>
-            <img src="sports.jpg" alt="Sports" width="150">
-            <img src="food.jpg" alt="Food" width="150">
-            <img src="travel.jpg" alt="Travel" width="150">
+            <div class="hobbies">
+                <img src="sports.jpg" alt="Sports" width="200">
+                <img src="food.jpg" alt="Food" width="200">
+                <img src="travel.jpg" alt="Travel" width="200">
+            </div>
         </section>
 
         <!-- Links -->
-        <section>
+        <section class="socials">
             <h2>My Socials &amp; Accounts</h2>
             <a href="https://www.facebook.com/aaronzander0627/">Facebook</a> | 
             <a href="https://www.instagram.com/aaronzrom/">Instagram</a> | 
@@ -48,8 +51,9 @@
         <!-- Bottom part w/ Submission Form -->
          <footer>
             <h3>Add me wherever and let's get to know each other!</h3>
+            <div class="footer">
 
-            <form>
+            <form class="form">
                 <!-- IF there's a method, it would be a POST (???) -->
                 <label>Nickname:</label>
                 <input type="text" name="nickname">
@@ -64,7 +68,7 @@
                     <option value="Facebook">Facebook</option>
                     <option value="Instagram">Instagram></option>
                     <option value="Github">Github></option>
-                    <option value="Linkedin">LinkedIn></option>
+                    <option value="LinkedIn">LinkedIn></option>
                     <option value="Steam">Steam></option>
                 </select>
                 <br>
@@ -75,11 +79,15 @@
                 <input type="submit" value="Send"/>
             </form>
 
+            <div class="contact">
             <!-- Contact info beside the form box (right side) -->
             <p>email: aaron_zander_romero@dlsu.edu.ph</p>
             <p>contact no.: +63 956 *** ****</p>
-
+            <br>
             <a href="#top">return to top page</a>
+
+            </div>
+            </div>
          </footer>
     </body>
 </html>

@@ -3,3 +3,70 @@ body {
     font-family: Verdana;
     margin: 30px;
 }
+
+.backtotop {
+    display: block;
+    text-align: right;
+
+}
+
+/* Body of index */
+.nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.hobbies {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.socials {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Bottom */
+.footer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.form {
+    border: 3px solid black;
+    padding: 25px;
+    width: 400px;
+}
+
+/* Body of Fitness */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left;
+}
